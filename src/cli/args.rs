@@ -3,7 +3,8 @@ use clap::{Parser, Subcommand};
 /// Secure Finance Messaging Block Application
 #[derive(Parser, Debug)]
 #[command(name = "stl_finapp")]
-#[command(version, about, long_about = None)]
+#[command(author = "sweetrush <github.com/sweetrush>")]
+#[command(version, about = "A secure, encrypted messaging system for financial institutions", long_about = None)]
 pub struct Args {
     #[command(subcommand)]
     pub command: Option<Commands>,

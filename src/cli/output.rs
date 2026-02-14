@@ -97,6 +97,7 @@ impl Output {
     /// Print a section header
     pub fn header(msg: &str) {
         println!("\n{}", msg.cyan().bold().underline());
+        println!("{}", "Developed by sweetrush".dimmed().italic());
         println!("{}", "─".repeat(50).dimmed());
     }
 

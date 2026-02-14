@@ -1,5 +1,7 @@
 # Usage Examples
 
+**Developed by: [sweetrush](https://github.com/sweetrush)**
+
 This document provides comprehensive examples for using the Secure Finance Messaging Block Application in various scenarios.
 
 ## Table of Contents

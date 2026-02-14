@@ -2,6 +2,8 @@
 
 A secure, encrypted messaging system for financial institutions to exchange message blocks between servers with RSA + AES hybrid encryption and token-based authentication.
 
+**Author: [sweetrush](https://github.com/sweetrush)**
+
 ## Overview
 
 This application enables two servers to securely share message blocks with each other. Before any message exchange, servers authenticate using a challenge-response mechanism with connect keys. All messages are encrypted using a hybrid encryption scheme (RSA-2048 + AES-256-GCM) ensuring confidentiality and integrity.

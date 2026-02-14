@@ -30,6 +30,7 @@ impl InteractiveSession {
     /// Run the interactive session
     pub async fn run(&mut self) -> Result<()> {
         Output::header("Secure Finance Messaging Application");
+        println!("{}", "Developed by sweetrush".dimmed().italic());
         Output::helper("Type 'help' for available commands");
 
         // Try to load existing keys

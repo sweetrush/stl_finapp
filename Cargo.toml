@@ -2,6 +2,8 @@
 name = "stl_finapp"
 version = "0.1.0"
 edition = "2021"
+authors = ["sweetrush <github.com/sweetrush>"]
+description = "A secure, encrypted messaging system for financial institutions"
 
 [dependencies]
 # CLI

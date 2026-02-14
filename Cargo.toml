@@ -1,0 +1,32 @@
+[package]
+name = "stl_finapp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# CLI
+clap = { version = "4.4", features = ["derive", "color"] }
+
+# Async runtime
+tokio = { version = "1.35", features = ["full"] }
+
+# Cryptography
+rsa = { version = "0.9", features = ["pem"] }
+rand = "0.8"
+aes-gcm = "0.10"
+sha2 = "0.10"
+pkcs8 = { version = "0.10", features = ["pem"] }
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+bincode = "1.3"
+
+# CLI coloring
+colored = "2.1"
+
+# Date/time
+chrono = { version = "0.4", features = ["serde"] }
+
+# Error handling
+thiserror = "1.0"
+anyhow = "1.0"
